@@ -1,2 +1,17 @@
 # nodeStudy
 学习node写CLI的代码
+
+
+# 资料来源为哔哩哔哩
+
+## 2020.5.21-全栈架构师必备技能-从 0 到 1 用 Node 完成一个 CLI 工具
+
+## https://www.bilibili.com/video/BV1QK4y1t7w5/?spm_id_from=333.880.my_history.page.click&vd_source=80ba4c435e491cb3c62fe7821539f747
+
+# 能力提高不二法门： 刻意练习，拆解知识点
+
+# --------------
+
+# 资料主题： 完成一个 CLI 工具 （大纲见根目录图片 大纲.jpg）
+
+# github远程地址为 https://github.com/su37josephxia/vue-sample
