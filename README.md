@@ -13,5 +13,3 @@
 # --------------
 
 # 资料主题： 完成一个 CLI 工具 （大纲见根目录图片 大纲.jpg）
-
-# github远程地址为 https://github.com/su37josephxia/vue-sample
