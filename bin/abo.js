@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-console.log("CLI......aBo  2323 ");
+console.log("CLI......aBo  11 ");
 
 // git commit -m 'test'
