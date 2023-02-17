@@ -17,7 +17,7 @@ program
     console.log("word: ", chalk.yellow(word));
   });
 
-program.command("ask").description("问题交互").action(getAge);
+program.command("ask").description("问题交互").action(getQuestion);
 
 program
   .command("init <name>")
@@ -26,7 +26,7 @@ program
 
 program.parse(process.argv);
 
-async function getAge() {
+async function getQuestion() {
   const question = [
     {
       type: "number", //type是交互的参数，这里选择输入类型
@@ -39,7 +39,7 @@ async function getAge() {
         // Do async stuff
         if (!val) {
           // Pass the return value in the done callback
-          done("you need to input age neccessarily");
+          done("you need to input age currently");
           return;
         }
         // Pass the return value in the done callback
@@ -50,7 +50,7 @@ async function getAge() {
       type: "confirm", //type是交互的参数，这里选择输入类型
       name: "sex", //name是这个问题用户输入结果的key，所有answer是一个对象
       message: "are you boy?", //这里是交互的问题
-      default: "", //这个是问题答案的默认值，如果用户不输入则取该值
+      default: "yes", //这个是问题答案的默认值，如果用户不输入则取该值
     },
     {
       type: "list", //type是交互的参数，这里选择输入类型
