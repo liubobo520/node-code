@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log("CLI......aBo  222 ");
+console.log("CLI......aBo  111 ");
