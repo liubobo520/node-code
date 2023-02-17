@@ -20,6 +20,20 @@ program
 program.command("ask").description("问题交互").action(getQuestion);
 
 program
+  .command("dealCommit")
+  .description("dealCommit")
+  .action(() => {
+    console.log("action dealCommit OK!!!");
+  });
+
+program
+  .command("dealPush")
+  .description("dealPush")
+  .action(() => {
+    console.log("action dealPush OK!!!");
+  });
+
+program
   .command("init <name>")
   .description("init project    ")
   .action(require("../lib/init"));
