@@ -7,12 +7,16 @@
     "kkb": "./bin/kkb.js",
     "abo": "./bin/abo.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "kkb dealCommit",
+      "pre-push": "kkb dealPush"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
     "sendCommit": "kkb dealCommit",
     "sendPush": "kkb dealPush"
-    
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +33,6 @@
     "watch": "^1.0.2"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^3.0.0"
   }
 }
