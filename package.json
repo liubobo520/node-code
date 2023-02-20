@@ -9,14 +9,15 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "kkb dealCommit",
-      "pre-push": "kkb dealPush"
+      "pre-commit": "npm run sendCommit",
+      "pre-push": "npm run  sendPush"
     }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sendCommit": "kkb dealCommit",
-    "sendPush": "kkb dealPush"
+    "sendPush": "kkb dealPush",
+    "demo-init": "node lib/init"
   },
   "author": "",
   "license": "ISC",
@@ -24,15 +25,20 @@
     "chalk": "^4.0.0",
     "clear": "^0.1.0",
     "commander": "^5.1.0",
+    "cowsay": "^1.5.0",
     "download-git-repo": "^3.0.2",
     "figlet": "^1.4.0",
     "handlebars": "^4.7.6",
     "inquirer": "^8.2.5",
     "open": "^7.0.4",
     "ora": "^4.0.4",
+    "progress": "^2.0.3",
     "watch": "^1.0.2"
   },
   "devDependencies": {
     "husky": "^3.0.0"
+  },
+  "dda": {
+    "aaa": "1"
   }
 }
