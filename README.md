@@ -1,5 +1,5 @@
 # nodeStudy
-学习node写CLI的代码
+学习node写CLI的代码.
 
 
 # 资料来源为哔哩哔哩
