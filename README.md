@@ -14,8 +14,9 @@
 
 # 资料主题： 完成一个 CLI 工具 （大纲见根目录图片 大纲.jpg）
 
-git config --global http.proxy
-git config --global https.proxy
-env|grep -i proxy
-git config --global --unset http.proxy
-git config --global --unset https.proxy
+- 推送代码问题
+  git config --global http.proxy
+  git config --global https.proxy
+  env|grep -i proxy
+  git config --global --unset http.proxy
+  git config --global --unset https.proxy

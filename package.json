@@ -10,7 +10,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run sendCommit",
-      "pre-push": "npm run  sendPush"
+      "pre-push": "npm run sendPush"
     }
   },
   "scripts": {
