@@ -22,4 +22,5 @@
   git config --global --unset https.proxy
   git config --global http.sslVerify "false"
   git config --global http.sslVerify false
+  git pull origin dev
   git push origin dev
