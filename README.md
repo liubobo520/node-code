@@ -15,6 +15,8 @@
 # 资料主题： 完成一个 CLI 工具 （大纲见根目录图片 大纲.jpg）
 
 - 推送代码问题
+  git commit -m 'test'
+
   git config --global http.proxy
   git config --global https.proxy
   env|grep -i proxy
