@@ -1,6 +1,6 @@
 # nodeStudy
 
-学习 node 写 CLI 的代码...
+学习 node 写 CLI 的代码.
 
 # 资料来源为哔哩哔哩
 
@@ -21,4 +21,5 @@
   git config --global --unset http.proxy
   git config --global --unset https.proxy
   git config --global http.sslVerify "false"
+  git config --global http.sslVerify false
   git push origin dev
