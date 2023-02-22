@@ -1,6 +1,6 @@
 # nodeStudy
-学习node写CLI的代码.
 
+学习 node 写 CLI 的代码...
 
 # 资料来源为哔哩哔哩
 
@@ -13,3 +13,16 @@
 # ----...----
 
 # 资料主题： 完成一个 CLI 工具 （大纲见根目录图片 大纲.jpg）
+
+- 推送代码问题
+  git commit -m 'test'
+
+  git config --global http.proxy
+  git config --global https.proxy
+  env|grep -i proxy
+  git config --global --unset http.proxy
+  git config --global --unset https.proxy
+  git config --global http.sslVerify "false"
+  git config --global http.sslVerify false
+  git pull origin dev
+  git push origin dev
