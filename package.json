@@ -4,14 +4,14 @@
   "description": "",
   "main": "aaa.js",
   "bin": {
-    "kkb": "./bin/kkb.js",
+    "aci": "./bin/aci.js",
     "abo": "./bin/abo.js"
   },
   "scripts": {
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sendCommit": "kkb dealCommit",
-    "sendPush": "kkb dealPush",
+    "sendCommit": "aci dealCommit",
+    "sendPush": "aci dealPush",
     "demo-init": "node ./lib/abo"
   },
   "author": "",

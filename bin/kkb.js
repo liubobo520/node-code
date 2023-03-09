@@ -14,7 +14,7 @@ program
   .command("log <word>")
   .description("输入样例")
   .action((word) => {
-    console.log("word: ", chalk.yellow(word));
+    console.log("log: ", chalk.yellow(word), "222");
   });
 
 program.command("ask").description("问题交互").action(getQuestion);
