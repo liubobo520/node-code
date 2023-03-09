@@ -1,6 +1,6 @@
 # nodeStudy
 
-学习 node 写 CLI 的代码...
+学习 node 写 CLI 的代码......
 
 # CLI相关资料来源为哔哩哔哩
 
