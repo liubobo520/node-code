@@ -11,7 +11,7 @@ program.version(pak.version);
 program.option("-d, --debug", "我的调试", "默认值");
 
 program
-  .command("demo <word>")
+  .command("log <word>")
   .description("输入样例")
   .action((word) => {
     console.log("word: ", chalk.yellow(word));

@@ -24,11 +24,11 @@ const handleWriteFile = (data) => {
   fs.stat(targetPath, async (err, stats) => {
     console.log("%c  stats:", "color: #0e93e0;background: #aaefe5;", stats);
     if (err) {
-      await fs.mkdir(targetPath, { recursive: true }, (err) => {
+      // 此处要注意死循环调用
+      return await fs.mkdir(targetPath, { recursive: true }, (err) => {
         if (err) throw err;
         handleWriteFile(data);
       });
-      console.log("handleWriteFile err:", err);
     }
     await fs.writeFile(targetPath + "/bbb.txt", data, function (err, data) {
       if (err) {
